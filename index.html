@@ -1,0 +1,729 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+      integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- CSS File -->
+    <link rel="stylesheet" href="./output/style.css" />
+  </head>
+  <body class="m-0 overflow-x-hidden bg-white font-sans text-slate-800">
+    <header class="relative z-50 bg-white">
+      <div
+        class="relative mx-auto flex h-16 max-w-[1200px] items-center justify-between px-6 sm:px-8 lg:px-10"
+      >
+        <!-- Logo -->
+        <a
+          href="#"
+          class="absolute left-6 top-0 z-50 flex h-20 w-28 items-center justify-center rounded-b-full bg-white transition-transform duration-300 hover:scale-105 sm:left-8 lg:left-10"
+        >
+          <div class="text-center">
+            <div class="flex items-center justify-center">
+              <img
+                src="./images/Group (7).png"
+                alt="Logo"
+                class="h-8 w-auto object-contain"
+              />
+            </div>
+
+            <p
+              class="mt-1 text-[9px] font-semibold tracking-[2px] text-[#51408e]"
+            >
+              BEACON ONE
+            </p>
+
+            <p class="text-[8px] tracking-[2px] text-[black]">CAPITAL</p>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation -->
+        <nav class="ml-auto hidden items-center md:flex">
+          <a
+            href="#philosophy"
+            class="text-xs transition-colors duration-300 hover:text-[#ad68ad]"
+          >
+            Philosophy
+          </a>
+
+          <a
+            href="#asset-classes"
+            class="ml-6 text-xs transition-colors duration-300 hover:text-[#ad68ad]"
+          >
+            Asset Classes
+          </a>
+
+          <a
+            href="#about"
+            class="ml-6 text-xs transition-colors duration-300 hover:text-[#ad68ad]"
+          >
+            About Us
+          </a>
+
+          <a
+            href="#contact"
+            class="ml-6 rounded-full border border-[#d1c6d1] bg-[#f1edf2] px-3 py-2 text-xs transition-all duration-300 hover:border-[#ad68ad] hover:bg-[#ad68ad] hover:text-white"
+          >
+            Contact Us
+          </a>
+        </nav>
+
+        <!-- Mobile Toggler -->
+        <button
+          id="menuBtn"
+          type="button"
+          class="ml-auto flex h-10 w-10 items-center justify-center rounded-full border border-slate-300 bg-white text-xl text-slate-800 transition-all duration-300 hover:border-[#ad68ad] hover:bg-[#ad68ad] hover:text-white md:hidden"
+          aria-label="Open navigation"
+          aria-expanded="false"
+          aria-controls="mobileNav"
+        >
+          <span id="menuIcon">☰</span>
+        </button>
+
+        <!-- Mobile Navigation -->
+        <nav
+          id="mobileNav"
+          class="absolute left-0 right-0 top-16 z-40 hidden flex-col border-t border-slate-200 bg-white px-6 py-5 shadow-lg md:hidden"
+        >
+          <a
+            href="#philosophy"
+            class="py-3 text-sm transition-colors duration-300 hover:text-[#ad68ad]"
+          >
+            Philosophy
+          </a>
+
+          <a
+            href="#asset-classes"
+            class="py-3 text-sm transition-colors duration-300 hover:text-[#ad68ad]"
+          >
+            Asset Classes
+          </a>
+
+          <a
+            href="#about"
+            class="py-3 text-sm transition-colors duration-300 hover:text-[#ad68ad]"
+          >
+            About Us
+          </a>
+
+          <a
+            href="#contact"
+            class="mt-2 inline-block w-fit rounded-full border border-[#ad68ad] bg-[#ad68ad] px-5 py-2 text-sm text-white transition-all duration-300 hover:border-[#955395] hover:bg-[#955395]"
+          >
+            Contact Us
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <main>
+      <div class="relative min-h-screen mx-6 rounded-2xl" style="background-image: url(&quot;./images/there-is-man-walking-sand-dune-desert-generative-ai_56221099.htm.jpg&quot;); overflow-hidden mx-10 rounded-xl bg-cover bg-center bg-no-repeat">
+      
+      <section
+        id="philosophy"
+        class="relative mx-auto min-h-screen max-w-[1200px] overflow-hidden rounded-t-[18px]  bg-cover bg-center bg-no-repeat px-6 pb-16 pt-6 sm:px-8 sm:pt-6 lg:px-10"
+      >
+        <!-- Hero Content -->
+        <div class="relative z-10 mx-auto max-w-[850px] text-center">
+          <h1
+            class="font-serif text-4xl font-normal leading-tight tracking-[-0.5px] sm:text-5xl"
+          >
+            Beacon One Capital
+            <br />
+            Where Vision Meets Opportunity.
+          </h1>
+
+          <p
+            class="mx-auto mt-4 max-w-[600px] text-xs leading-relaxed text-gray-500 max-[480px]:text-[11px] max-[360px]:text-[10px]"
+          >
+            At Beacon One Capital, we don’t just invest in properties—we
+            transform them. From breathing new life into rundown spaces to
+            building cutting-edge developments, we turn underutilized assets
+            into dynamic centers for business and community growth. We're not
+            just revitalizing properties—we're fueling the local economy,
+            creating jobs, and helping communities thrive.
+          </p>
+
+          <a
+            href="#contact"
+            class="mt-6 inline-flex rounded-full bg-[#ad68ad] px-5 py-2.5 text-xs text-white transition-all duration-300 hover:bg-[#955395] hover:shadow-md"
+          >
+            Contact Us
+          </a>
+        </div>
+
+        <!-- Warehouse Image Container -->
+        <div
+          class="relative z-10 mx-auto mt-8 w-full max-w-[1000px] rounded-[15px] border border-white bg-white/30 p-[6px] sm:mt-10"
+        >
+          <div
+            class="h-[230px] overflow-hidden rounded-[10px] sm:h-[300px] md:h-[400px] lg:h-[500px]"
+          >
+            <img
+              src="./images/banner.jpg"
+              alt="Modern industrial warehouse interior"
+              class="block h-full w-full object-cover object-center"
+            />
+          </div>
+        </div>
+      </div>
+      </section>
+
+      <!-- Property Section -->
+      <section
+        class="relative mx-5 overflow-hidden bg-white py-12 sm:py-16 lg:py-20"
+      >
+        <!-- Main Container -->
+        <div class="relative z-10 mx-auto max-w-[1000px]">
+          <div class="grid grid-cols-1 items-start md:grid-cols-2">
+            <!-- Left Column -->
+            <div class="flex flex-col px-2 sm:px-4 md:pr-6">
+              <!-- Heading -->
+              <h2
+                class="max-w-[420px] font-serif text-3xl font-normal leading-[1.15] tracking-tight text-[#202938] sm:text-4xl items-center lg:text-[40px]"
+              >
+                Unlock the potential
+                <br />
+                of your property.
+              </h2>
+
+              <!-- Left Image -->
+              <div
+                class="mt-8 w-full max-w-[420px] overflow-hidden rounded-lg sm:mt-10"
+              >
+                <img
+                  src="./images/Mask group (9).png"
+                  alt="Modern commercial property"
+                  class="block aspect-[4/5] w-full object-cover object-center transition-transform duration-500 hover:scale-105"
+                />
+              </div>
+            </div>
+
+            <!-- Right Column -->
+            <div class="flex flex-col px-2 sm:px-4 p-3 md:pl-6">
+              <!-- Right Image -->
+              <div class="w-full max-w-[420px] overflow-hidden rounded-lg">
+                <img
+                  src="./images/Mask group (8).png"
+                  alt="Modern commercial building exterior"
+                  class="block aspect-[1.18/1] w-full object-cover object-center transition-transform duration-500 hover:scale-105"
+                />
+              </div>
+
+              <!-- Description -->
+              <div class="mt-8 max-w-[420px] sm:mt-10">
+                <p class="text-xs leading-[1.7] text-gray-500">
+                  At Beacon One Capital, we're more than just investors—we're
+                  community builders. Over the years, we've focused on creating
+                  spaces where businesses can flourish and communities can grow.
+                  Our projects span the Northeast, Midwest, and Southeast, where
+                  we work hand-in-hand with local businesses, contractors, and
+                  investors to transform properties and shape the future of
+                  commercial real estate.
+                </p>
+
+                <!-- Contact Button -->
+                <a
+                  href="#contact"
+                  class="mt-8 inline-flex items-center justify-center rounded-full bg-[#ad68ad] px-6 py-3 text-xs text-white transition-all duration-300 hover:bg-[#955395] hover:shadow-md"
+                >
+                  Get In Touch Today!
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="overflow-hidden bg-[#eee7ed] mx-0 px-4 py-12 sm:px-6 sm:py-16 lg:px-8"
+      >
+        <div class="mx-0 max-w-[1200px]">
+          <!-- Heading -->
+          <h2
+            class="mx-auto mb-8 max-w-[600px] text-center font-serif text-3xl leading-tight text-[#202938] sm:mb-10 sm:text-4xl lg:text-5xl"
+          >
+            Let’s build
+            <br />
+            something extraordinary together.
+          </h2>
+
+          <!-- Responsive Grid -->
+          <div
+            class="grid grid-cols-1 gap-y-5 sm:grid-cols-2 sm:gap-x-4 lg:grid-cols-4 lg:gap-x-3"
+          >
+            <!-- Card 1: Image -->
+            <div class="overflow-hidden rounded-md bg-white">
+              <img
+                src="./images/Mask group (10).png"
+                alt="Modern commercial building"
+                class="block h-auto w-full object-contain transition-transform duration-500 hover:scale-105 "
+              />
+            </div>
+
+            <!-- Card 2: Content -->
+            <div
+              class="flex min-h-[180px] flex-col justify-between border border-gray-300 rounded-md bg-[#eee7ed] p-7 sm:min-h-[180px]"
+            >
+              <div>
+                <h3 class="font-serif text-lg text-[#202938]">
+                  Lorem Ipsum Is
+                </h3>
+                <p class="mt-3 text-xs leading-relaxed text-gray-500">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text.
+                </p>
+              </div>
+
+              <a
+                href="#contact"
+                class="mt-6 text-xs text-[#202938] transition-colors hover:text-[#ad68ad]"
+              >
+                Contact Us
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+
+            <!-- Card 3: Image -->
+            <div class="overflow-hidden rounded-md bg-white">
+              <img
+                src="./images/Mask group (11).png"
+                alt="Modern warehouse interior"
+                class="block h-auto w-full object-contain transition-transform duration-500 hover:scale-105"
+              />
+            </div>
+
+            <!-- Card 4: Content -->
+            <div
+              class="flex min-h-[180px] flex-col justify-between rounded-md bg-[#ad68ad] p-7 text-white sm:min-h-[180px]"
+            >
+              <div>
+                <h3 class="font-serif text-lg">Lorem Ipsum Is</h3>
+                <p class="mt-3 text-xs leading-relaxed">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text.
+                </p>
+              </div>
+
+              <a
+                href="#contact"
+                class="mt-6 text-xs transition-opacity hover:opacity-70"
+              >
+                Contact Us
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+
+            <!-- Card 5: Content -->
+            <div
+              class="flex min-h-[180px] flex-col justify-between rounded-md bg-[#ad68ad] p-7 text-white sm:min-h-[180px]"
+            >
+              <div>
+                <h3 class="font-serif text-lg">Lorem Ipsum Is</h3>
+                <p class="mt-3 text-xs leading-relaxed">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text.
+                </p>
+              </div>
+
+              <a
+                href="#contact"
+                class="mt-6 text-xs transition-opacity hover:opacity-70"
+              >
+                Contact Us
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+
+            <!-- Card 6: Image -->
+            <div class="overflow-hidden rounded-md bg-white">
+              <img
+                src="./images/Mask group (12).png"
+                alt="Modern commercial interior"
+                class="block h-auto w-full object-contain transition-transform duration-500 hover:scale-105"
+              />
+            </div>
+
+            <!-- Card 7: Content -->
+            <div
+              class="flex min-h-[180px] flex-col justify-between border border-gray-300 rounded-md bg-[#eee7ed] p-7 text-[#202938] sm:min-h-[180px]"
+            >
+              <div>
+                <h3 class="font-serif text-lg">Lorem Ipsum Is</h3>
+                <p class="mt-3 text-xs leading-relaxed text-gray-500">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text.
+                </p>
+              </div>
+
+              <a
+                href="#contact"
+                class="mt-6 text-xs transition-colors hover:text-[#ad68ad]"
+              >
+                Contact Us
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+
+            <!-- Card 8: Image -->
+            <div class="overflow-hidden rounded-md bg-white">
+              <img
+                src="./images/Mask group (13).png"
+                alt="Aerial view of commercial warehouse"
+                class="block h-auto w-full object-contain transition-transform duration-500 hover:scale-105"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Testimonials Section -->
+      <section
+        class="relative mx-5 bg-white px-4 pb-24 pt-12 sm:px-8 sm:pb-28 sm:pt-16 lg:px-10"
+      >
+        <!-- Decorative Background -->
+        <div class="pointer-events-none absolute inset-0 overflow-hidden">
+          <div
+            class="absolute -left-20 top-0 h-[500px] w-[500px] rounded-full border border-[#f6f3f5]"
+          ></div>
+          <div
+            class="absolute -right-20 top-0 h-[500px] w-[500px] rounded-full border border-[#f6f3f5]"
+          ></div>
+        </div>
+
+        <div class="relative z-50 mx-auto max-w-[1200px]">
+          <!-- Heading -->
+          <div class="text-center">
+            <span
+              class="inline-block rounded-full border border-[#eee9ed] px-3 py-1 text-[10px] text-gray-500"
+            >
+              Testimonials
+            </span>
+
+            <h2
+              class="mt-3 font-serif text-3xl font-normal leading-tight sm:text-4xl lg:text-[40px]"
+            >
+              What people say about Us
+            </h2>
+          </div>
+
+          <!-- Slider -->
+          <div class="relative mx-auto mt-6 max-w-[850px]">
+            <!-- Previous Button -->
+            <button
+              id="prevBtn"
+              type="button"
+              aria-label="Previous testimonial"
+              class="absolute left-0 top-1/2 z-20 flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full bg-white text-xl text-gray-400 shadow-[0_4px_20px_rgba(0,0,0,0.15)] transition-all duration-300 hover:bg-[#ad68ad] hover:text-white sm:h-12 sm:w-12"
+            >
+              &#8249;
+            </button>
+
+            <!-- Customer Images -->
+            <div class="mx-auto flex max-w-[400px] items-center justify-center">
+              <button
+                type="button"
+                data-slide="0"
+                aria-label="View testimonial 1"
+                class="customer-avatar mx-2 h-9 w-9 shrink-0 overflow-hidden rounded-full opacity-50 transition-all duration-300 sm:mx-3 sm:h-10 sm:w-10"
+              >
+                <img
+                  src="./images/Ellipse 10 (2).png"
+                  alt="Customer 1"
+                  class="h-full w-full object-cover opacity-70"
+                />
+              </button>
+
+              <button
+                type="button"
+                data-slide="1"
+                aria-label="View testimonial 2"
+                class="customer-avatar mx-2 h-11 w-11 shrink-0 overflow-hidden rounded-full opacity-70 transition-all duration-300 sm:mx-3 sm:h-12 sm:w-12"
+              >
+                <img
+                  src="./images/Ellipse 9 (1).png"
+                  alt="Customer 2"
+                  class="h-full w-full object-cover"
+                />
+              </button>
+
+              <button
+                type="button"
+                data-slide="2"
+                aria-label="View testimonial 3"
+                class="customer-avatar mx-2 h-14 w-14 shrink-0 overflow-hidden rounded-full ring-2 ring-white transition-all duration-300 sm:mx-3 sm:h-16 sm:w-16"
+              >
+                <img
+                  src="./images/image (2).png"
+                  alt="Customer 3"
+                  class="h-full w-full object-cover"
+                />
+              </button>
+
+              <button
+                type="button"
+                data-slide="3"
+                aria-label="View testimonial 4"
+                class="customer-avatar mx-2 h-11 w-11 shrink-0 overflow-hidden rounded-full opacity-70 transition-all duration-300 sm:mx-3 sm:h-12 sm:w-12"
+              >
+                <img
+                  src="./images/Ellipse 7 (1).png"
+                  alt="Customer 4"
+                  class="h-full w-full object-cover"
+                />
+              </button>
+
+              <button
+                type="button"
+                data-slide="4"
+                aria-label="View testimonial 5"
+                class="customer-avatar mx-2 h-9 w-9 shrink-0 overflow-hidden rounded-full opacity-50 transition-all duration-300 sm:mx-3 sm:h-10 sm:w-10"
+              >
+                <img
+                  src="./images/Ellipse 8 (1).png"
+                  alt="Customer 5"
+                  class="h-full w-full object-cover opacity-70"
+                />
+              </button>
+            </div>
+
+            <!-- Next Button -->
+            <button
+              id="nextBtn"
+              type="button"
+              aria-label="Next testimonial"
+              class="absolute right-0 top-1/2 z-20 flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full bg-[#ad68ad] text-xl text-white shadow-md transition-all duration-300 hover:bg-[#955395] sm:h-12 sm:w-12"
+            >
+              &#8250;
+            </button>
+          </div>
+
+          <!-- Testimonial Content -->
+          <div class="mx-auto mt-6 max-w-[650px] px-8 text-center sm:mt-8">
+            <p id="reviewText" class="text-xs leading-[1.8] text-gray-500">
+              I was planning on doing a DIY project at home since I had more
+              time now and didn't want people visiting my home for health
+              concerns. C-Line experts ordered the materials, walked my step by
+              step on what to do. Whenever I got stuck, I just did the Quick
+              Call and an expert helped me solve that issue in minutes! I saved
+              $2400 on my project and learned a new skill!
+            </p>
+
+            <p id="reviewName" class="mt-5 text-xs text-[#ad68ad]">
+              Rita Brown
+            </p>
+
+            <p id="reviewRole" class="mt-1 text-[10px] text-gray-500">
+              VP Marketing at Bowl
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- 2. Get In Touch CTA -->
+      <section class="absolute z-50 mx-5 flex w-full justify-center px-4 sm:px-6 lg:px-8">
+        <div
+          class="relative mx-auto flex min-h-[100px] max-w-[1000px] -translate-y-1/2 flex-col items-center justify-between rounded-md bg-[#927d88] px-5 py-5 sm:flex-row sm:px-8 lg:px-10"
+        >
+          <h2
+            class="font-serif text-center text-2xl leading-tight text-white sm:text-left sm:text-3xl lg:text-4xl"
+          >
+            Get In Touch With Us
+          </h2>
+          <img src="./images/Vector 3.png" alt="arrow" class="mt-2 h-4 w-auto sm:mt-0" />
+
+          <a
+            href="#contact"
+            class="mt-4 inline-flex shrink-0 items-center justify-center rounded-full bg-white px-6 py-3 text-xs text-[#202938] transition-all duration-300 hover:bg-[#ad68ad] hover:text-white sm:mt-0"
+          >
+            Contact Us
+          </a>
+        </div>
+      </section>
+    </main>
+    <!-- Footer Part -->
+    <footer
+      class="relative z-0 -mt-12 bg-[#18212c] px-5 pb-0 pt-20 text-white sm:pt-24"
+    >
+      <div class="mx-auto max-w-[1200px]">
+        <!-- Footer Main Content -->
+        <div class="grid grid-cols-1 items-start sm:grid-cols-2 lg:grid-cols-4">
+          <!-- Logo -->
+          <div class="mb-10 flex flex-col items-center sm:mb-0 sm:items-start">
+            <a
+              href="#"
+              class="text-center transition-opacity duration-300 hover:opacity-70"
+            >
+              <div class="flex items-center justify-center">
+                <img
+                  src="./images/Group (10).png"
+                  alt="Logo"
+                  class="h-10 w-auto object-contain bg-contain"  />
+              </div>
+
+              <p class="mt-2 text-2xl font-semibold tracking-[3px]">
+                BEACON ONE
+              </p>
+
+              <p class="text-2xl tracking-[3px]">CAPITAL</p>
+            </a>
+          </div>
+
+          <!-- Quick Links -->
+          <div class="mb-10 sm:mb-0">
+            <h3 class="font-serif text-sm">Quick Links</h3>
+
+            <div class="mt-3 h-px w-7 bg-white/60"></div>
+
+            <ul class="mt-4 space-y-2 text-xs text-white/80">
+              <li>
+                <a
+                  href="#philosophy"
+                  class="transition-colors hover:text-[#c17ac1]"
+                >
+                  Philosophy
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="#asset-classes"
+                  class="transition-colors hover:text-[#c17ac1]"
+                >
+                  Asset Classes
+                </a>
+              </li>
+
+              <li>
+                <a href="#about" class="transition-colors hover:text-[#c17ac1]">
+                  About Us
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="#contact"
+                  class="transition-colors hover:text-[#c17ac1]"
+                >
+                  Contact Us
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Additional Links -->
+          <div class="mb-10 sm:mb-0">
+            <h3 class="font-serif text-sm">Additional Links</h3>
+
+            <div class="mt-3 h-px w-7 bg-white/60"></div>
+
+            <ul class="mt-4 space-y-2 text-xs text-white/80">
+              <li>
+                <a href="#terms" class="transition-colors hover:text-[#c17ac1]">
+                  Terms Of Use
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="#privacy"
+                  class="transition-colors hover:text-[#c17ac1]"
+                >
+                  Privacy Policy
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="#conditions"
+                  class="transition-colors hover:text-[#c17ac1]"
+                >
+                  Terms And Conditions
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Newsletter -->
+          <div>
+            <h3 class="font-serif text-sm">Subscribe Our Newsletter</h3>
+
+            <div class="mt-3 h-px w-7 bg-white/60"></div>
+
+            <form id="newsletterForm" class="mt-4 flex items-center">
+              <input
+                type="email"
+                required
+                placeholder="Enter Your Email"
+                aria-label="Enter your email"
+                class="min-w-0 flex-1 rounded-full border border-white/60 bg-transparent px-3 py-2 text-xs text-white outline-none placeholder:text-white/80 focus:border-[#c17ac1]"
+              />
+
+              <button
+                type="submit"
+                aria-label="Subscribe"
+                class="ml-2 flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-[#ad68ad] text-sm text-white transition-all duration-300 hover:bg-[#955395]"
+              >
+                <i class="fa-brands fa-telegram text-2xl"></i>
+              </button>
+            </form>
+
+            <!-- Social Links -->
+            <div class="mt-5 flex flex-wrap items-center">
+              <a
+                href="#"
+                aria-label="X"
+                class="mr-3 flex h-7 w-7 items-center justify-center rounded-full bg-[#e9e3eb] text-xs text-[#18212c] transition-transform hover:-translate-y-1"
+              >
+                <i class="fa-brands fa-x-twitter"></i>
+              </a>
+
+              <a
+                href="#"
+                aria-label="Instagram"
+                class="mr-3 flex h-7 w-7 items-center justify-center rounded-full bg-[#e9e3eb] text-xs text-[#18212c] transition-transform hover:-translate-y-1"
+              >
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+
+              <a
+                href="#"
+                aria-label="LinkedIn"
+                class="mr-3 flex h-7 w-7 items-center justify-center rounded-full bg-[#e9e3eb] text-xs font-bold text-[#18212c] transition-transform hover:-translate-y-1"
+              >
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+
+              <a
+                href="#"
+                aria-label="Facebook"
+                class="flex h-7 w-7 items-center justify-center rounded-full bg-[#e9e3eb] text-xs font-bold text-[#18212c] transition-transform hover:-translate-y-1"
+              >
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="mt-8 border-t border-white/50 py-4 text-center">
+          <p class="text-[10px] text-white/80">
+            © 2026 Beacon One Capital. All Rights Reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
